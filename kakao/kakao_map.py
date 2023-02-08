@@ -101,8 +101,8 @@ class KakaoMapPoiCollector:
 if __name__ =="__main__":
     
     url = "https://dapi.kakao.com/v2/local/search/keyword.json?"
-    # api_key_dict_list = [{"owner":"hj","key":"9e4723b86f7113f04b838d1af3d06122"},{"owner":"hg","key":"c6390bcee62f332c25d8c20972955c05"},{"owner":"jw","key":"b940ae659d2a46688fa1aa2b43937392"}]
-    api_key_dict_list = [{"owner":"jw","key":"b940ae659d2a46688fa1aa2b43937392"},{"owner":"hg","key":"c6390bcee62f332c25d8c20972955c05"},{"owner":"hj","key":"9e4723b86f7113f04b838d1af3d06122"}]
+    # api_key_dict_list = [{"owner":"hj","key":"#place your api key#"},{"owner":"hg","key":"#place your api key#"},{"owner":"jw","key":"#place your api key#"}]
+    api_key_dict_list = [{"owner":"jw","key":"#place your api key#"},{"owner":"hg","key":"#place your api key#"},{"owner":"hj","key":"#place your api key#"}]
 
     kakaoi_porcess = KakaoMapPoiCollector(url = "https://dapi.kakao.com/v2/local/search/keyword.json?",
                         data_load_path = "/mnt/workspace/poi_collector/data/jibun_concat_kakao_API_get (2).csv",
